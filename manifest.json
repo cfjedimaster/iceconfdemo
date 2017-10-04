@@ -1,0 +1,13 @@
+{
+	"short_name":"ICE Conf",
+	"name":"I.C.E. Conference",
+	"icons":[
+		{
+			"src":"images/icons/ice.png",
+			"type":"image/png",
+			"sizes":"144x144"
+		}
+	],
+	"start_url":"/index.html?utm_source=homescreen",
+	"display":"standalone"
+}

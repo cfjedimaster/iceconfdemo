@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', init, false);
 function init() {
 
-	/*
 	if("serviceWorker" in navigator) {
 		navigator.serviceWorker.register('/serviceworker.js')
 		.then((registration) => {
@@ -10,6 +9,6 @@ function init() {
 			console.error('Service Worker failed', err);
 		});
 	}
-	*/
+
 
 }

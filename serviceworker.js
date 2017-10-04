@@ -1,10 +1,10 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
-  '/index.html?utm_source=homescreen',
-  '/schedule.html',
-  '/images/icons/ice.png',
-  '/js/app.js',
+  '/iceconfdemo/',
+  '/iceconfdemo/index.html?utm_source=homescreen',
+  '/iceconfdemo/schedule.html',
+  '/iceconfdemo/images/icons/ice.png',
+  '/iceconfdemo/js/app.js',
   'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css',
   'https://code.jquery.com/jquery-3.2.1.slim.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js',

@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'my-site-cache-v2';
 var urlsToCache = [
   '/iceconfdemo/',
   '/iceconfdemo/index.html?utm_source=homescreen',
@@ -9,7 +9,7 @@ var urlsToCache = [
   'https://code.jquery.com/jquery-3.2.1.slim.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js',
   'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js',
-  '/manifest.json'
+  '/iceconfdemo/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {

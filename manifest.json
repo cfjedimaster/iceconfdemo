@@ -5,7 +5,7 @@
 		{
 			"src":"images/icons/ice.png",
 			"type":"image/png",
-			"sizes":"144x144"
+			"sizes":"192x192"
 		}
 	],
 	"start_url":"/iceconfdemo/index.html?utm_source=homescreen",

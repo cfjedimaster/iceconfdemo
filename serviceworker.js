@@ -43,14 +43,14 @@ self.addEventListener('fetch', function(event) {
 	self.addEventListener('activated', function(event) {
 		// I do cleanup
 		event.waitUntil(
-				caches.keys().then(function(cacheNames) {
-						return Promise.all(
-								cacheNames.map(function(cacheName) {          
-										if (CACHE_NAME !== cacheName) {
-												return caches.delete(cacheName);          
-										}        
-								})      
-						);    
-				})  
+			caches.keys().then(function(cacheNames) {
+				return Promise.all(
+					cacheNames.map(function(cacheName) {          
+						if (CACHE_NAME !== cacheName) {
+							return caches.delete(cacheName);          
+						}
+					})      
+				);    
+			})  
 		);
 	});
